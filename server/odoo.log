@@ -1,0 +1,123 @@
+2024-05-13 04:45:07,323 16524 INFO ? odoo: Odoo version 17.0-20240512 
+2024-05-13 04:45:07,323 16524 INFO ? odoo: Using configuration file at E:\download\odoo17\server\odoo.conf 
+2024-05-13 04:45:07,323 16524 INFO ? odoo: addons paths: ['E:\\download\\odoo17\\server\\odoo\\addons', 'e:\\download\\odoo17\\sessions\\addons\\17.0', 'e:\\download\\odoo17\\server\\odoo\\addons'] 
+2024-05-13 04:45:07,323 16524 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-13 04:45:09,763 16524 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at E:\download\odoo17\thirdparty\wkhtmltopdf.exe 
+2024-05-13 04:45:11,060 16524 WARNING ? py.warnings: E:\download\odoo17\python\lib\site-packages\docutils\utils\smartquotes.py:639: DeprecationWarning: invalid escape sequence '\['
+  File "E:\download\odoo17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\download\odoo17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "E:\download\odoo17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "E:\download\odoo17\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "E:\download\odoo17\server\odoo\addons\base\models\__init__.py", line 28, in <module>
+    from . import ir_module
+  File "E:\download\odoo17\server\odoo\addons\base\models\ir_module.py", line 20, in <module>
+    from docutils.core import publish_string
+  File "E:\download\odoo17\python\lib\site-packages\docutils\core.py", line 21, in <module>
+    from docutils import frontend, io, utils, readers, writers
+  File "E:\download\odoo17\python\lib\site-packages\docutils\readers\__init__.py", line 15, in <module>
+    from docutils.transforms import universal
+  File "E:\download\odoo17\python\lib\site-packages\docutils\transforms\universal.py", line 24, in <module>
+    from docutils.utils import smartquotes
+  File "E:\download\odoo17\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "E:\download\odoo17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-13 04:45:11,748 16524 WARNING ? py.warnings: E:\download\odoo17\python\lib\site-packages\vobject\base.py:736: DeprecationWarning: invalid escape sequence '\-'
+  File "E:\download\odoo17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\download\odoo17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "E:\download\odoo17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "E:\download\odoo17\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "E:\download\odoo17\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "E:\download\odoo17\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "E:\download\odoo17\python\lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "E:\download\odoo17\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "E:\download\odoo17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-13 04:45:11,748 16524 WARNING ? py.warnings: E:\download\odoo17\python\lib\site-packages\vobject\base.py:1219: DeprecationWarning: invalid escape sequence '\;'
+  File "E:\download\odoo17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\download\odoo17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "E:\download\odoo17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "E:\download\odoo17\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "E:\download\odoo17\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "E:\download\odoo17\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "E:\download\odoo17\python\lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "E:\download\odoo17\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "E:\download\odoo17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-13 04:45:11,748 16524 WARNING ? py.warnings: E:\download\odoo17\python\lib\site-packages\vobject\base.py:1219: DeprecationWarning: invalid escape sequence '\,'
+  File "E:\download\odoo17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\download\odoo17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "E:\download\odoo17\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "E:\download\odoo17\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "E:\download\odoo17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "E:\download\odoo17\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "E:\download\odoo17\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "E:\download\odoo17\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "E:\download\odoo17\python\lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "E:\download\odoo17\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "E:\download\odoo17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-13 04:45:11,814 16524 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-13 04:45:11,814 16524 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
