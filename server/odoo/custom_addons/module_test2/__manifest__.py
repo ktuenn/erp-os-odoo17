@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "module_test",
+    'name': "module_test2",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
     'description': """
-    Long description of module's purpose
+Long description of module's purpose
     """,
 
-    'author': "Kim Tuyen",
-    'website': "https://www.ktuenn.com",
+    'author': "My Company",
+    'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
