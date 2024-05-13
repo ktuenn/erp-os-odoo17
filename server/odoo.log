@@ -121,3 +121,9 @@
  
 2024-05-13 04:45:11,814 16524 INFO ? odoo.service.server: Initiating shutdown 
 2024-05-13 04:45:11,814 16524 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-13 04:45:19,254 19388 INFO ? odoo: Odoo version 17.0-20240512 
+2024-05-13 04:45:19,254 19388 INFO ? odoo: Using configuration file at E:\download\odoo17\server\odoo.conf 
+2024-05-13 04:45:19,254 19388 INFO ? odoo: addons paths: ['E:\\download\\odoo17\\server\\odoo\\addons', 'e:\\download\\odoo17\\sessions\\addons\\17.0', 'e:\\download\\odoo17\\server\\odoo\\addons'] 
+2024-05-13 04:45:19,254 19388 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-13 04:45:19,396 19388 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at E:\download\odoo17\thirdparty\wkhtmltopdf.exe 
+2024-05-13 04:45:19,629 19388 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GRIJDV7K:8069 
