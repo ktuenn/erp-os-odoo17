@@ -127,3 +127,6 @@
 2024-05-13 04:45:19,254 19388 INFO ? odoo: database: openpg@localhost:5432 
 2024-05-13 04:45:19,396 19388 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at E:\download\odoo17\thirdparty\wkhtmltopdf.exe 
 2024-05-13 04:45:19,629 19388 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GRIJDV7K:8069 
+2024-05-14 00:30:39,412 19388 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-14 00:30:39,452 19388 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-14 00:30:39,517 19388 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  

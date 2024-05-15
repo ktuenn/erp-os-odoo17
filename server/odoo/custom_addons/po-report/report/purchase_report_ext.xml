@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template id="report_purchase_order_extension_view" inherit_id="purchase.report_purchaseorder_document">
+
+        <xpath expr="//t[@t-foreach='o.order_line']" position="attributes">
+            <attribute name="t-foreach">o.order_line.filtered(lambda x: x.product_qty > 0)</attribute>
+        </xpath>
+    
+    </template>
+</odoo>
